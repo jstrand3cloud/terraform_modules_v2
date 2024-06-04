@@ -1,0 +1,11 @@
+loadbalancer_id                = "idofloadbalancer"
+name                           = "nameoflbrule"
+protocol                       = "TCP"
+frontend_port                  = "443"
+backend_port                   = "443"
+frontend_ip_configuration_name = "blfrontendipconfigname"
+backend_address_pool_ids       = ["backendaddresspoolid"]
+probe_id                       = "probeid"
+enable_floating_ip             = false
+load_distribution              = "SourceIPProtocol"
+disable_outbound_snat          = true

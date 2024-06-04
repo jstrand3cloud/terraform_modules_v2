@@ -1,0 +1,9 @@
+location            = "eastus"
+name                = "testpipname"
+resource_group_name = "testrgname"
+public_ip_prefix_id = null
+allocation_method   = "static"
+zones               = ["1", "2"]
+domain_name_label   = "testinspire.com"
+sku                 = "standard"
+tags                = {}

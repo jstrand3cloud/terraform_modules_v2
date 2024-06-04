@@ -1,0 +1,9 @@
+name                       = "lawnamehere"
+location                   = "eastus"
+resource_group             = "rgnamehere"
+sku                        = "PerGB2018"
+retention_in_days          = "90"
+internet_ingestion_enabled = true
+internet_query_enabled     = true
+identity_type              = "SystemAssigned"
+tags = {}

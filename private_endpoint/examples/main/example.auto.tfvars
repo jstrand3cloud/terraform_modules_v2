@@ -1,0 +1,11 @@
+name                            = "jhtestpe"
+location                        = "East US 2 "
+resource_group_name             = "jc-tf-dev-rg"
+subnet_id                       = "subnetidhere"
+private_dns_zone_ids            = ["privatednszoneid"]
+is_manual_connection            = false
+private_connection_resource_id  = "resourceid"
+request_message                 = null
+private_ip_address              = ["10.13.2.6"]
+tags                            = {}
+subresource_name                = "blob"

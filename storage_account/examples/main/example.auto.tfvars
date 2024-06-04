@@ -1,0 +1,19 @@
+storage_account_name             = "iac3cteststorage"
+location                         = "eastus"
+resource_group_name              = "IAC_Committee_RG"
+account_kind                     = "StorageV2"
+account_tier                     = "Standard"
+storage_account_replication_type = "LRS"
+min_tls_version                  = "TLS1_2"
+storage_account_is_gen2          = false
+enable_https_traffic_only        = true
+nfsv3_enabled                    = false
+allow_nested_items_to_be_public  = false
+tags = {
+  tag1 = "IAC_Committee"
+  Tag2 = "test"
+}
+identity_type                          = "SystemAssigned"
+storage_account_network_default_action = "Allow"
+storage_account_network_bypass         = ["Logging", "Metrics", "AzureServices"]
+storage_account_containers             = ["logging", "storage"]
